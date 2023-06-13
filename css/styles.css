@@ -3,15 +3,20 @@
   margin: 0;
   box-sizing: border-box;
   color: rgb(15, 15, 15);
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
-  background-color: rgb(167, 166, 166);
+  background: hsla(180, 2%, 65%, 1);
+  background: linear-gradient(90deg, hsla(180, 2%, 65%, 1) 75%, hsla(0, 0%, 38%, 1) 100%);
+  background: -moz-linear-gradient(90deg, hsla(180, 2%, 65%, 1) 75%, hsla(0, 0%, 38%, 1) 100%);
+  background: -webkit-linear-gradient(90deg, hsla(180, 2%, 65%, 1) 75%, hsla(0, 0%, 38%, 1) 100%);
+  filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#A3A7A7", endColorstr="#626262", GradientType=1);
 }
 
 .navbar {
   background: #b6b6b6;
-  color:#fff;
+  color: #fff;
   padding: 15px;
   width: 100%;
   height: 75px;
@@ -31,6 +36,7 @@ body {
   align-items: center;
   transition: 0.4s ease all, 0s ease background;
 }
+
 .navbar ul.links li {
   text-transform: uppercase;
   padding: 0 15px;
@@ -40,15 +46,18 @@ body {
   align-items: center;
   transition: 0.4s ease all, 0s ease margin;
 }
+
 .navbar ul.links li a {
   text-decoration: none;
   color: #fff;
 }
+
 .navbar ul.links li:hover {
   background: blueviolet;
   cursor: pointer;
   color: #080808;
 }
+
 .container {
   width: 100%;
   justify-content: center;
@@ -83,16 +92,18 @@ footer {
   padding: 25px;
   text-align: center;
 }
-button{
+
+.button {
   background-color: green;
   width: 40%;
   height: 40px;
   border-radius: 20px;
 }
-.card.carrinho{
+
+.card_carrinho {
   width: 80%;
   display: flex;
-  margin: 1%  1%;
+  margin: 1% 1%;
   margin-left: 100px;
   padding: 15px;
   font-size: 10px;
@@ -100,36 +111,38 @@ button{
   text-align: center;
   align-items: center;
   font-family: 'Times New Roman', Times, serif;
-  background-color: #b6b6b6;
+  background-color: #696969;
   border-radius: 3px;
 }
 
-.card.carrinho img{
-  height: 100px;
-  width: 30%;
+.card_carrinho img {
+  height: 500px;
+  width: 40%;
   margin: 10px;
-cursor: pointer;
-border-color: white;
-border-radius: 0%;
+  cursor: pointer;
+  border-color: rgb(139, 139, 139);
+  border-radius: 0%;
 }
 
-.card.carrinho h1{
+.card_carrinho h1 {
   font-family: 'Courier New', Courier, monospace;
-text-transform: uppercase;
-font-size: 20px;
-background-color: white;
-border-radius: 3px;
-padding: 5px;
-margin-right: 10px;
-} 
-.card.carrinho h2{
+  text-transform: uppercase;
+  font-size: 30px;
+  background-color: rgb(90, 89, 89);
+  border-radius: 3px;
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.card_carrinho h2 {
   margin-left: 20px;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 30px;
   text-transform: uppercase;
 }
-.card.carrinho button{
-  font-family: 'Courier New', Courier, monospace;
+
+.card_carrinho button {
+  font-family: Arial, Helvetica, sans-serif;
   text-transform: uppercase;
   font-size: 20px;
   background-color: chartreuse;
