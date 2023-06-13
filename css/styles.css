@@ -2,16 +2,16 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  color: white;
+  color: rgb(15, 15, 15);
 }
 
 body {
-  background-color: #7e7e7e;
+  background-color: rgb(167, 166, 166);
 }
 
 .navbar {
-  background: #393838;
-  color: #fff;
+  background: #b6b6b6;
+  color:#fff;
   padding: 15px;
   width: 100%;
   height: 75px;
@@ -79,7 +79,62 @@ body {
 }
 
 footer {
-  background-color: rgb(35, 35, 35);
+  background-color: rgb(163, 162, 162);
   padding: 25px;
   text-align: center;
+}
+button{
+  background-color: green;
+  width: 40%;
+  height: 40px;
+  border-radius: 20px;
+}
+.card.carrinho{
+  width: 80%;
+  display: flex;
+  margin: 1%  1%;
+  margin-left: 100px;
+  padding: 15px;
+  font-size: 10px;
+  color: #080808;
+  text-align: center;
+  align-items: center;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: #b6b6b6;
+  border-radius: 3px;
+}
+
+.card.carrinho img{
+  height: 100px;
+  width: 30%;
+  margin: 10px;
+cursor: pointer;
+border-color: white;
+border-radius: 0%;
+}
+
+.card.carrinho h1{
+  font-family: 'Courier New', Courier, monospace;
+text-transform: uppercase;
+font-size: 20px;
+background-color: white;
+border-radius: 3px;
+padding: 5px;
+margin-right: 10px;
+} 
+.card.carrinho h2{
+  margin-left: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+.card.carrinho button{
+  font-family: 'Courier New', Courier, monospace;
+  text-transform: uppercase;
+  font-size: 20px;
+  background-color: chartreuse;
+  border-radius: 5px;
+  padding: 5px;
+  margin-left: 20px;
+  cursor: pointer;
 }
